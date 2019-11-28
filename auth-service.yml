@@ -1,0 +1,8 @@
+
+eureka:
+  instance:
+    app: auth-service
+    hostName: ${AUTH_HOST}
+    vipAddress: com.auth-service
+    statusPageUrl: /
+  host: ${EUREKA_HOST}
