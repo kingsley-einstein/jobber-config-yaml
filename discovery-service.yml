@@ -1,11 +1,11 @@
 eureka:
   instance:
-    hostname: ${EUREKA_HOST}
+    hostname: '{cipher}e6f3d242720fefce20a7373948b109c3ee13133dee0880d8e5fbab8f63d701c2d3697bdf7ffbff3078c861e13f8d42f2ab9886395c8b5f43e01b0173874f7cff'
     prefer-ip-address: false
   client:
     fetch-registry: false
     register-with-eureka: false
     serviceUrl:
-      defaultZone: ${EUREKA_HOST}
+      defaultZone: '{cipher}e6f3d242720fefce20a7373948b109c3ee13133dee0880d8e5fbab8f63d701c2d3697bdf7ffbff3078c861e13f8d42f2ab9886395c8b5f43e01b0173874f7cff'
   server:
     wait-time-in-ms-when-sync-empty: 0
