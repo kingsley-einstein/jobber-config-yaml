@@ -2,7 +2,7 @@
 eureka:
   instance:
     app: auth-service
-    hostName: '{cipher}d38568a7025df49c9deb2aea8e4ffa70f43b05f27326267d8235801edddb555bacad5798b8430d7ed3d542786bebe9c862e2654311c576bce2db2aaa49c26e3a'
+    hostName: '{cipher}0eab2fc8bc88a9b6933f02ee73e9b32e1d0748950a5fd099095ba89ea2bd2580b9d71ae5ad8e79dd6b410ce6a9e679b4'
     vipAddress: com.auth-service
-    statusPageUrl: /
+    statusPageUrl: '{cipher}7dbc875b831d819c1ebcf769ce62e007b565c8d7d7223453279a47af98da18b01daef6043959e2e9f9be346772ef86285eab1340786e072541cc75e70c5b4c62d3951960797f244d2930cffd1af9f677'
   host: '{cipher}e3f4db0590b41477a2859542586c1d399c116fff193e1d96f1638e238d49314544f173ffc3188adc07e846809ecf5773'
