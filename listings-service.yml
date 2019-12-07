@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: '{cipher}e3f4db0590b41477a2859542586c1d399c116fff193e1d96f1638e238d49314544f173ffc3188adc07e846809ecf5773'
+    hostname: '{cipher}1989f86f4171018549b5afb6ec4057fe0552cdef71bc6708991b14774ea04fb4f1decc4c255387cded9cf835c7e6ff7d'
     prefer-ip-address: false
   client:
     fetch-registry: true
