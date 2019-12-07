@@ -3,6 +3,7 @@ eureka:
     hostname: '{cipher}1989f86f4171018549b5afb6ec4057fe0552cdef71bc6708991b14774ea04fb4f1decc4c255387cded9cf835c7e6ff7d'
     prefer-ip-address: false
   client:
+    enabled: true
     fetch-registry: true
     register-with-eureka: true
     serviceUrl:
