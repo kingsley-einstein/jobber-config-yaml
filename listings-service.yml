@@ -7,3 +7,17 @@ eureka:
     register-with-eureka: true
     serviceUrl:
       defaultZone: '{cipher}e6f3d242720fefce20a7373948b109c3ee13133dee0880d8e5fbab8f63d701c2d3697bdf7ffbff3078c861e13f8d42f2ab9886395c8b5f43e01b0173874f7cff'
+spring:
+  datasource:
+    url: '{cipher}90873f6fc4ac3de7730d80af02074494212a36e0c37a871b3388f495afebd3041d551c9fb235065e1bbda2b337c1d95bfb6881f2a8723ec41fb84ca46b6c91f9d34e5cd4ba3d217d7b0c42d2f09163e6'
+    username: '{cipher}c647c9176433c1efd5f040c13ced9492db2305058fd2e032a331f884383764f4'
+    password: '{cipher}a0ba2947837e72a193c1693e6f1307e1b6f2ded1e5c7392bdcd27241fe28a803cfd4e32880a540f75c6ebfc0dd7a7e2fcbf9e2b7f649c0a8cc365baedaebc7bf'
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+        dialect: org.hibernate.dialect.PostgreSQLDialect
